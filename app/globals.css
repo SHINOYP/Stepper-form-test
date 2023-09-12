@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: black;
+  background:white;
+}
+
+
+.ant-btn-primary {
+  background-color:  #800080!important;
+}
+
+.ant-steps-item-process .ant-steps-item-icon {
+  background:  #800080!important;
+}
+/* Customize the color of the Steps component items */
+.ant-steps-item-process .ant-steps-item-title {
+  background-color:white; 
+  color:black;
+  border: 1px solid #800080!important ;
+  border-radius: 0.8rem;
+  width: 100%;
+  max-width: 13rem;
+  height: 100%;
+  max-height: 10rem;
+  padding-block: 0.4rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.ant-steps-item-finish .ant-steps-item-title {
+  background-color:white; 
+  color:rgb(243, 237, 237);
+  border: 1px solid gainsboro!important ;
+  border-radius: 0.8rem;
+  width: 100%;
+  max-width: 13rem;
+  height: 100%;
+  padding-block: 0.4rem;
+  max-height: 10rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.ant-steps-item-wait .ant-steps-item-title {
+  background-color:white; 
+  color:rgb(243, 237, 237);
+  border: 1px solid gainsboro!important ;
+  border-radius: 0.8rem;
+  width: 100%;
+  max-width: 13rem;
+  height: 100%;
+  padding-block: 0.4rem;
+  max-height: 10rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
