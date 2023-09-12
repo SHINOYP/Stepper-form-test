@@ -3,7 +3,6 @@ import { useFormUpdate } from "../../context/course.context";
 
 export default function Page() {
   const [form, setForm] = useFormUpdate();
-  console.log(form[0].name);
   return (
     <section className="flex  flex-col max-w-[1300px] mx-auto">
       <div className="flex gap-10 mt-6 p-6  w-full ">
